@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+}
+  
+ h2 {
+    color: #be8437
+ }
+  
+ h3 {
+    color: #be8437
+ }
+
+ .jumbotron {
+    font-size: 15px;
+    padding: 30px;
+    background-color: #be8437;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+ }
+
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 60%;
+    padding: 10px;
+ }
+
+ .absolute {
+    position: absolute;
+    top: 200px;
+    right: 110px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 25%;
+
+}
+  
+ footer {
+    padding: 20px;
+   color: white;
+   background-color: #be8437;
+   text-align: center;
+   font-weight: bold;
+ }
