@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        
+        <div class="flex-container-column card">
+                <h1>Kalkulator</h1>
+                <div class="display" id="displayNumber"><h2>0</h2></div>
+
+            <div class="flex-container-row">
+                <div class="button">7</div>
+                <div class="button">8</div>
+                <div class="button">9</div>
+                <div class="button operator">+</div>
+            </div>
+            <div class="flex-container-row">
+                <div class="button">4</div>
+                <div class="button">5</div>
+                <div class="button">6</div>
+                <div class="button operator">-</div>
+            </div>
+            <div class="flex-container-row">
+                <div class="button">1</div>
+                <div class="button">2</div>
+                <div class="button">3</div>
+                <div class="button operator">*</div>
+            </div>
+            <div class="flex-container-row">
+                <div class="button clear">Ce</div>
+                <div class="button">0</div>
+                <div class="button equals">=</div>
+                <div class="button operator">/</div>
+                <div class="button operator">%</div>
+            </div>
+        </div>
+
+        <div class="history card">
+                <h2>Riwayat Perhitungan</h2>
+                <button onclick="hapus()">Hapus Riwayat</button>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Angka Pertama</th>
+                            <th>Operator</th>
+                            <th>Angka Kedua</th>
+                            <th>Hasil</th>
+                        </tr>
+                    </thead>
+                    <tbody id="historyList"></tbody>
+                </table>
+        </div>
+
+    </body>
+
+    <script src="calculator.js" async defer></script>
+    <script src="riwayat.js" async defer></script>
+</html>
